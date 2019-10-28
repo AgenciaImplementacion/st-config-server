@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: st-config-server
+  profiles:
+    active: "develop"
+    
+---
+
+spring:
+  profiles: develop
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/AgenciaImplementacion/st-configuration-properties.git
+          default-label: develop
+
+server:
+  port: 8889
+
+---
+
+spring:
+  profiles: production
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/AgenciaImplementacion/st-configuration-properties.git
+          default-label: master
+
+server:
+  port: 8890
