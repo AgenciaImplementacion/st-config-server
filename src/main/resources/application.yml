@@ -12,7 +12,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/AgenciaImplementacion/st-configuration-properties.git
+          uri: http://192.168.98.230/sistema-transicion/configuration/st-configuration-properties.git
+          username: USERNAME
+          password: PASSWORD
           default-label: develop
 
 server:
@@ -26,7 +28,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/AgenciaImplementacion/st-configuration-properties.git
+          uri: http://192.168.98.230/sistema-transicion/configuration/st-configuration-properties.git
+          username: USERNAME
+          password: PASSWORD
           default-label: master
 
 server:
