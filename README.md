@@ -19,7 +19,7 @@ spring:
           default-label: develop
 ```
 
-## Running Server
+## Running Development
 
 Alternatively, credentials can be sent via command line.
 
@@ -27,7 +27,15 @@ Alternatively, credentials can be sent via command line.
 $ mvn spring-boot:run -Drun.arguments=--spring.cloud.config.server.git.username=USERNAME,--spring.cloud.config.server.git.password=PASSWORD
 ```
 
-## Running with Docker
+## Running Production
+
+### Master Branch
+
+Go to the master branch
+
+```sh
+$ git checkout master
+```
 
 ### Generate jar
 
@@ -52,7 +60,7 @@ $ docker build -t st-config-server:ursus --build-arg USERNAME=USERNAME --build-a
 ### Run Container
 
 ```sh
-docker run -p 8890:8890 --name st-config-server --network st st-config-server:ursus
+$ docker run -p 8890:8890 --name st-config-server --network st st-config-server:ursus
 ```
 
 ## License
