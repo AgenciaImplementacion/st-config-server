@@ -47,7 +47,7 @@ spring:
           uri: http://192.168.98.230/sistema-transicion/configuration/st-configuration-properties.git
           username: USERNAME
           password: PASSWORD
-          default-label: master
+          default-label: aws
 
 server:
   port: 8890
