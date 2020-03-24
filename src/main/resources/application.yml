@@ -2,7 +2,7 @@ spring:
   application:
     name: st-config-server
   profiles:
-    active: "develop"
+    active: "production"
     
 ---
 
