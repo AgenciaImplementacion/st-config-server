@@ -12,7 +12,7 @@ spring:
     config:
       server:
         git:
-          uri: http://192.168.98.230/sistema-transicion/configuration/st-configuration-properties.git
+          uri: HOSTNAME
           username: USERNAME
           password: PASSWORD
           default-label: develop
@@ -28,7 +28,7 @@ spring:
     config:
       server:
         git:
-          uri: http://192.168.98.230/sistema-transicion/configuration/st-configuration-properties.git
+          uri: HOSTNAME
           username: USERNAME
           password: PASSWORD
           default-label: master
@@ -44,7 +44,7 @@ spring:
     config:
       server:
         git:
-          uri: https://git-codecommit.us-east-2.amazonaws.com/v1/repos/st-configuration-properties.git
+          uri: HOSTNAME
           username: USERNAME
           password: PASSWORD
           default-label: aws
