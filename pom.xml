@@ -10,9 +10,9 @@
 	</parent>
 	<groupId>com.ai.st.config</groupId>
 	<artifactId>st-config-server</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.5</version>
 	<name>st-config-server</name>
-	<description>Sistema Transición - Servidor Configuración</description>
+	<description>ST - Servidor Configuración</description>
 
 	<properties>
 		<java.version>1.8</java.version>
